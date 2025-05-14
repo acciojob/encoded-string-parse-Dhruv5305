@@ -1,5 +1,4 @@
 const parseCode = (str) => {
-  // Split the string using one or more zeros as the delimiter
   const parts = str.split(/0+/);
   return {
     firstName: parts[0],
